@@ -2,7 +2,7 @@ import React,{ useState, useEffect, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 
 export default function home() {
-    let location = useLocation() // location.pathname
+    let location = useLocation() // location.pathname == '/'
 
     let options = [{name: 'Websites', width: 90}, {name: 'Bots', width: 85}, {name: 'Apis', width: 80}, {name: 'Servers', width: 75}, {name: 'Apps', width: 70}, {name: 'Contact', width: 65}]
 
